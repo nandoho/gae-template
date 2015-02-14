@@ -22,7 +22,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.springframework-version>3.2.2.RELEASE</org.springframework-version>
 		<jackson.version>1.9.13</jackson.version>
-		<com.gocardless-java-version>2.1.0</com.gocardless-java-version>
     </properties>
 
     <dependencies>
@@ -43,13 +42,6 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
-		<dependency>
-			<groupId>com.mandrillapp.wrapper.lutung</groupId>
-			<artifactId>gae-lutung</artifactId>
-			<version>0.1</version>
-		</dependency>
-		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
